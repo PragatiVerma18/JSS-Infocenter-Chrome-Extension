@@ -8,7 +8,7 @@ $(document).ready(function() {
             title = $('div.col-7', value).html();
             author = $('div.auth-index', value).html();
             date = $('div.auth-index', value).next().html();
-            $('#notices').append('<li class="list-item">' +title+'<div class="details">'+'<p class="auth">'+author+'</p>'+'<p class="date">'+date +'</p>' +'</div>' +'</li>');
+            $('#notices').append('<li class="list-item">' +title+'<div class="details">'+'<p class="auth is-pulled-left">'+author+'</p>'+'<p class="date is-pulled-right">'+date +'</p>' +'</div>' +'</li>');
         });
 
     });
